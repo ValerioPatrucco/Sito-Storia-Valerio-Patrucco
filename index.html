@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>	
+		<title>Home Page</title>
+		<link rel="shortcut icon" type"image/x-icon href="favicon.ico">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="stile.css">
+	</head>
+	<body>
+        	<div class="navbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</div>
+
+		<nav class="nav">
+		     <ul>
+		         <li><a href="index.html">Home</li>
+                         <li><a href="industria.html">Industria</li>
+	                 <li><a href="società.html">Società</a></li>
+		         <li><a href="scienza.html">Scienza</a></li>
+		     </ul>
+		</nav>
+
+		<div id="header">
+    			<img src="Logo.png" alt="Logo del tuo sito">
+		</div>
+
+		<div id="menu-bar">
+    		<span id="menu">Menu</span>
+    				<a style="color:White;" ></a>
+    				<a style="color:White;" ></a>
+    				<a style="color:White;" ></a>
+		</div>
+		<h1>Rivoluzione Industriale</h1>
+		<div id="gallery">
+		<div class="image-container">
+        		<a href="industria.html"><img src="Immagine1.png" alt="Immagine 1"></a>
+		</div>
+		<div class="image-container2">
+			<a href="società.html"><img src="Immagine2.png" alt="Immagine 2"></a>
+		</div>
+		<div class="image-container3">
+			<a href="scienza.html"><img src="Immagine3.png" alt="Immagine 3"></a>
+		</div>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>		
+
+		<script>
+			$(document).ready(function(){
+				$( '.navbar' ).click(function(){
+					$( '.nav' ).toggleClass( 'wide' );
+				})
+			})
+		</script
+
+	</body>
+</html>
